@@ -1,6 +1,62 @@
 .App {
   text-align: center;
 }
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+.stock-container {
+  padding-left: 3em;
+  padding-right: 3em;
+  margin-top: 3em;
+}
+table {
+  display: flex;
+  justify-content: center;
+  /* border: 2px solid gray; */
+  border:1px solid black;
+  margin-left:auto;
+  margin-right:auto
+}
+td {
+  border: 1px solid rgb(17, 16, 16);
+  width: 30em;
+  margin-left:auto;
+  margin-right:auto
+}
+.header {
+  background-color: #f4e04d;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #10375c;
+}
+/* .App {
+  text-align: center;
+}
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +91,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
