@@ -1,0 +1,21 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "eventname": "json-server",
+      "description": "Welcome",
+      "date": "typicode"
+    },
+    {
+      "eventname": "Birthday",
+      "description": "Friend",
+      "id": 2
+    },
+    {
+      "eventname": "SG",
+      "description": "w",
+      "date": "2023-5-9",
+      "id": 3
+    }
+  ]
+}
