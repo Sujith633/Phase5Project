@@ -38,7 +38,7 @@ function TextForm() {
         };
         console.log(data1);
        axios.post("http://localhost:3000/events/",data1).then(
-        response => (alert("Data Added"))
+        response => (alert(data1))
        )
     }
 
