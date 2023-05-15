@@ -12,9 +12,7 @@ function App() {
       <Navbar/>
         <div className='container my-3'>
           <Routes>
-            {/* <Route path="/about" element={<About heading='About Us'/>} /> */}
-            <Route path="/allproducts" element={<Home/>} />
-            {/* <Route path="/" element={<TextForm heading="Enter the text here to Analyze here"/>} /> */}
+           <Route path="/allproducts" element={<Home/>} />
             <Route path="/add" element={<AddProduct/>} />
           </Routes>
         </div>
